@@ -1,0 +1,16 @@
+/* 定义滑动淡入的动画 */
+@keyframes slideInFade {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 给组件应用动画效果 */
+.component-animation {
+  animation: slideInFade 0.5s ease-in-out;
+}
